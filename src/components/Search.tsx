@@ -40,7 +40,7 @@ const Search = ({
                   className="text-left text-sm w-full hover:bg-zinc-700 hover:text-white px-2 py-1 cursor-pointer"
                   onClick={() => onOptionSelect(option)}
                 >
-                  {option.name}
+                  {option.name} {option.country}
                 </button>
               </li>
             ))}
